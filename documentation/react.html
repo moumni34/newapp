@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<title>Dreams LMS - Documentation</title>
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+		
+		<!-- Fontawesome CSS -->
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+		
+		<!-- Styles -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">		
+		<link rel="stylesheet" href="assets/css/style.css">
+		
+	</head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#sidebar-menu"
+    data-bs-offset="100"
+  >
+    <div class="main-wrapper">
+      <!-- Header -->
+      <header>
+        <nav class="navbar" id="home">
+            <div class="container-fluid">
+                <div class="navbar-left">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo-dark" src="assets/img/dreamguys-logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="action-list">
+                    <a class="btn btn-primary btn-live" target="_blank" href="https://themeforest.net/item/dreams-lms-online-course-html-template/38940428">Buy Now</a>
+                    <a class="btn btn-primary btn-live" target="_blank" href="https://dreamslms.dreamguystech.com/">Live Demo <i class="fas fa-arrow-right ps-2"></i></a>
+                    <a class="support-btn" target="_blank" href="https://themeforest.net/user/dreamguys"><img class="img-fluid" src="assets/img/headset_mic.png" alt="icon"> Support</a>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Mobile Menu Toggle -->
+        <a class="mobile_btn" id="mobile_btn">
+            <i class="fas fa-bars"></i>
+        </a>
+        <!-- /Mobile Menu Toggle -->
+        
+    </header>
+      <!-- Header -->
+
+      <!-- Main Wrapper -->
+
+      <div class="sidebar" id="sidebar">
+        <div class="sidebar-inner slimscroll">
+          <div id="sidebar-menu" class="sidebar-menu sidebar-body">
+            <h2>Table Of Content</h2>
+            <ul class="nav nav-sidebar">
+              <li class="nav-item">
+                <a class="nav-link" href="#introduction">1.Overview</a>
+                <ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#installation-new"
+                      >1.1. Installation Guide for New</a
+                    >
+                  </li>
+				  <li class="nav-item">
+                    <a class="nav-link" href="#installation"
+                      >1.2. Installation Guide</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#requirements"
+                      >1.3. Requirements</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#file_structure">2. STRUCTURE</a>
+                <ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#file_structure"
+                      >2.1. Files Structures</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#credits">3. CREDITS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#support">4. SUPPORT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#thanks">5. THANK YOU</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="page-wrapper" id="introduction">
+        <div class="content container-fluid">
+            <div class="logo">
+                <a class="main-logo" href="index.html">
+                    <img class="img-fluid" src="assets/img/logo.svg" alt="logo" width="240">
+                </a>
+            </div>
+          <hr />
+          <div class="page-header">
+            <h4>Documentation</h4>
+            <ul>
+              <li>Created on: 3rd May 2021</li>
+              <li>
+                Developed by:
+                <a target="_blank" href="https://dreamguys.co.in/"
+                  >DreamGuy's Technologies</a
+                >
+              </li>
+              <li>
+                Support via email:
+                <a href="mailto:admin@dreamguys.co.in"
+                  >business@dreamguys.co.in</a
+                >
+              </li>
+              <li>
+                Support via Themeforest:
+                <a
+                  target="_blank"
+                  href="https://themeforest.net/user/dreamguys/"
+                  >Take me there</a
+                >
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <section id="features">
+            <h1>1. OVERVIEW</h1>
+            <p>
+              DreamsLMS Template offers you the best template created by the
+              latest version of React ^18.2.0 with super responsive web design.
+              Mix supports several common CSS. We have also added few
+              reusable components which speedup your development.
+            </p>
+          </section>
+          <section id="installation-new">
+            <h4>1.1. Installation Guide For New</h4>
+            <ul>
+              <li>
+                Open the terminal in your root directory & to create the project
+                run the following command:
+              </li>
+              <div class="highlight-box mb-3">
+                <p class="mb-0">npx create-react-app Project_name</p>
+              </div>
+              <li>
+                By running the following command, you will be able to get all
+                the dependencies in your node_modules folder:
+              </li>
+              <div class="highlight-box mb-3">
+                <p class="mb-0">npm install (or) npm i --legacy-peer-deps</p>
+              </div>
+              <li>
+                To run the project, you need to run following command in the
+                project directory. It will compile the jsx files & all the other
+                project files. If you are making any changes in any of the .jsx
+                file then you need to save the file, it will automatically
+                consider this command and run the entire code.
+              </li>
+              <div class="highlight-box mb-3">
+                <p class="mb-0">npm run build</p>
+              </div>
+              <li>
+                To install any plugins in your application, you have to run the
+                following command
+              </li>
+              <div class="highlight-box mb-3">
+                <p class="mb-0">npm install plugin_name --save</p>
+              </div>
+            </ul>
+          </section>
+		  <section id="installation">
+			<h4>1.2. Installation Guide</h4>
+            <ul>
+              <li>
+                After unzipping Template Files, you will find our product
+                DreamsLMS->Reactjs(Source code), Documentation in the following
+                Main Files folder.
+              </li>
+              <li>
+				Mandatory are npm and node are needed to run the reactjs project
+              </li>
+              <li>
+				Once unzipped the files,run the command: 
+              </li>
+              <div class="highlight-box mb-3">
+                <p class="mb-0">npm install (or) npm install --legacy-peer-deps</p>
+              </div>
+              <li>
+				For running a project,run the command: 
+              </li>
+              <div class="highlight-box mb-3">
+                <p class="mb-0">npm start</p>
+              </div>
+			  <li>
+                If you want to run the project and make the build in the
+                production mode then run the following command in the root
+                directory, otherwise the project will continue to run in the
+                development mode.
+              </li>
+              <div class="highlight-box mb-3">
+                <p class="mb-0">npm run build</p>
+              </div>
+            </ul>
+			<p class="text-dark"><strong>For example:</strong></p>
+            <div class="highlight-box">
+              <p class="mb-0">http://localhost:3001/reactjs/</p>
+            </div>
+		  </section>
+          <section id="requirements">
+            <h4>1.3. Requirements</h4>
+            <ul class="mt-3">
+              <li><a href="https://reactjs.org/">React</a> &gt;= ^18.2.0</li>
+              <li>Node js Package</li>
+              <li>Node version = ^18.13.0</li>
+              <li>Yarn package (Optional)</li>
+              <li>
+                <a href="https://code.visualstudio.com/download"
+                  >Visual Studio Code</a
+                >
+              </li>
+              <li>Terminal</li>
+            </ul>
+          </section>
+
+          <section id="file_structure">
+            <h1>2. STRUCTURE</h1>
+            <h4>2. 1. File Structure</h4>
+            <p>
+              Extract the zip file you received after purchase and you would
+              find the exact below files and folders:
+            </p>
+            <div class="file-wrap">
+              <pre><i class="fas fa-folder"></i><span>dreamslms/ </span>
+│
+└── <i class="fas fa-folder"></i><span>reactjs/ </span>
+|	│
+|	└──<i class="fas fa-folder"></i><span> node_modules/ </span>          
+|		│
+|		└── <i class="fas fa-folder"></i><span> public/favicon.png  </span>             
+|		│
+|		└── <i class="fas fa-folder"></i><span>src/ </span>       
+|
+|		 <i class="fas fa-file text-blue"></i><span>.gitignore </span>
+|		 
+|		 <i class="fas fa-file text-blue"></i><span>package.json </span>
+|		 
+|		 <i class="fas fa-file text-blue"></i><span>package.lock.json </span>
+|		 
+|		 <i class="fas fa-file text-blue"></i><span>webpack.config.js </span>
+|
+|		 <i class="fas fa-file text-blue"></i><span>yarn-error </span>
+|		 
+└── <i class="fas fa-folder"></i><span>documentation/ </span>
+
+    <i class="fas fa-file text-blue"></i><span>react </span>
+
+
+</pre>
+            </div>
+          </section>
+
+          <section id="credits" class="mb-30">
+            <h1>3. CREDITS</h1>
+            <p>
+              We've used the following resources as listed. These are some
+              awesome creation and we are thankful to the community.
+            </p>
+            <ul class="credit-list">
+              <li>
+                <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://react-bootstrap.github.io/">React-Bootstrap</a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="http://fortawesome.github.io/Font-Awesome/"
+                  >Font Awesome</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="http://fortawesome.github.io/Font-Awesome/"
+                  >Font Awesome</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://react-select.com/home"
+                  >React-select</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://apexcharts.com/docs/react-charts/"
+                  >React-apexcharts</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://react-slick.neostack.com/"
+                  >React-slick</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.kevinqi.com/react-circular-progressbar/"
+                  >React-circular-progressbar</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="http://www.google.com/fonts"
+                  >Google Fonts</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.npmjs.com/package/react-select"
+                  >React-Select</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section id="support" class="mb-30">
+            <h1>4. SUPPORT</h1>
+            <p class="mb-0">
+              If you have any queries please contact us through email:
+              <strong>business@dreamguys.co.in</strong>
+            </p>
+          </section>
+          <section id="thanks" class="mb-0">
+            <h1>5. THANK YOU</h1>
+            <p>Thank you so much for using this template</p>
+            <a target="_blank" href="https://themeforest.net/user/dreamguys"
+              ><strong>Dreamguy's Technologies Pvt Ltd,</strong></a
+            >
+          </section>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-sm-12">
+              <p class="mb-0">© 2023 Mentoring. All rights reserved.</p>
+            </div>
+            <a href="#" class="top-move"><i class="fas fa-arrow-up"></i></a>
+          </div>
+        </div>
+      </footer>
+      <!-- /footer -->
+    </div>
+    <!-- /Main Wrapper -->
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Slimscroll JS -->
+    <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
